@@ -1,0 +1,182 @@
+<div class="container">
+    <ol class="breadcrumb alert alert-warning" role="alert">
+      <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+      <li><a href="#">Home</a></li>
+      <li class="active">Result</li>
+      <div class="well" style="margin-top: 10px;">
+          行程列表畫面，把搜尋製作成可側邊收合/展開處理。
+      </div>
+    </ol>
+
+    <div class="page-header">
+        <h1>Result</h1>
+    </div>
+    
+	<div class="row clearfix">
+		<div class="col-xs-12 col-sm-8 col-md-6 column">
+			<img class="img-responsive" src="http://placehold.it/600x350?text=Map" />
+			<br />
+			<form id="searchForm" class="form-inline" role="form">
+				<div class="form-group">
+					<div class="input-group">
+						<label class="sr-only" for="city">City</label>
+						<input type="text" class="form-control" id="city" placeholder="City">
+						<div class="input-group-addon">@</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="input-group">
+						<label class="sr-only" for="city">Occupation</label>
+						<input type="text" class="form-control" id="Occupation" placeholder="Occupation">
+						<div class="input-group-addon">@</div>
+					</div>
+				</div>
+				<button type="submit" class="btn btn-danger">Search</button>
+			</form>
+			
+			<form class="form-horizontal" role="form">	
+				<div class="form-group">
+					<label for="Activities" class="col-sm-3 control-label"><h4>Activities</h4></label>
+					<div class="col-sm-9">
+						<i class="col-sm-4 fa fa-coffee fa-4x"></i>
+						<i class="col-sm-4 fa fa-camera fa-4x"></i>
+						<i class="col-sm-4 fa fa-area-chart fa-4x"></i>
+					</div>
+				</div>
+			
+				<div class="form-group">
+					<label for="Duration" class="col-sm-3 control-label"><h4>Duration</h4></label>
+					<div class="col-sm-9">
+						<img src="http://placehold.it/80x80?text=3hrs" class="img-circle" alt="<3hrs" data-holder-rendered="true" style="width: 80px; height: 80px;" />&nbsp;&nbsp;&nbsp;&nbsp;
+                		<img src="http://placehold.it/80x80?text=3-5hrs" class="img-circle" alt="3-5hrs" data-holder-rendered="true" style="width: 80px; height: 80px;" />&nbsp;&nbsp;&nbsp;&nbsp;
+                		<img src="http://placehold.it/80x80?text=5hrs" class="img-circle" alt="" data-holder-rendered="true" style="width: 80px; height: 80px;" />
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label for="Themes" class="col-sm-3 control-label"><h4>Themes</h4></label>
+					<div class="col-sm-9">
+						<button class="col-sm-4">Hipster</button>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label for="Groupsize" class="col-sm-3 control-label"><h4>Group Size</h4></label>
+					<div class="col-sm-9">
+						<select class="form-control">
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="form-group">
+					<label for="pricerange" class="col-sm-3 control-label"><h4>Price Range</h4></label>
+					<div class="col-sm-9">
+						<input type="text" class="form-control" name="pricerange" min="10" max="500">
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-6 column">
+			<div class="row" style="position: relative;">
+	        	<div class="col-md-9">
+	        		<img class="img-rounded img-responsive" src="http://placehold.it/450x250" alt="450x250" />
+	        	</div>
+	        	<div class="col-md-3">
+	        		<label class="text-left">
+	        			<i class="col-md-6 fa fa-camera fa-2x"></i>
+                   		<i class="col-md-6 fa fa-shopping-cart fa-2x"></i>
+                    </label>
+                	<label class="text-left"><h3>Hipster</h3></label>
+               	 	<label class="text-left"><h3>size 3-5</h3></label>
+               	 	<label class="text-left"><h4><p class="text-center btn-info">USD $500</p></h4></label>
+	        	</div>	        	
+	        </div>
+	        <br />
+	        <div class="row" style="position: relative;">
+	        	<div class="col-md-9">
+	        		<img class="img-rounded img-responsive" src="http://placehold.it/450x250" alt="450x250" />
+	        	</div>
+	        	<div class="col-md-3">
+	        		<label class="text-left">
+	        			<i class="col-md-6 fa fa-camera fa-2x"></i>
+                   		<i class="col-md-6 fa fa-shopping-cart fa-2x"></i>
+                    </label>
+                	<label class="text-left"><h3>Hipster</h3></label>
+               	 	<label class="text-left"><h3>size 3-5</h3></label>
+               	 	<label class="text-left"><h4><p class="text-center btn-info">USD $500</p></h4></label>
+	        	</div>	        	
+	        </div>
+	        <br />
+	        <div class="row" style="position: relative;">
+	        	<div class="col-md-9">
+	        		<img class="img-rounded img-responsive" src="http://placehold.it/450x250" alt="450x250" />
+	        	</div>
+	        	<div class="col-md-3">
+	        		<label class="text-left">
+	        			<i class="col-md-6 fa fa-camera fa-2x"></i>
+                   		<i class="col-md-6 fa fa-shopping-cart fa-2x"></i>
+                    </label>
+                	<label class="text-left"><h3>Hipster</h3></label>
+               	 	<label class="text-left"><h3>size 3-5</h3></label>
+               	 	<label class="text-left"><h4><p class="text-center btn-info">USD $500</p></h4></label>
+	        	</div>	        	
+	        </div>
+	        <br />
+	        <div class="row" style="position: relative;">
+	        	<div class="col-md-9">
+	        		<img class="img-rounded img-responsive" src="http://placehold.it/450x250" alt="450x250" />
+	        	</div>
+	        	<div class="col-md-3">
+	        		<label class="text-left">
+	        			<i class="col-md-6 fa fa-camera fa-2x"></i>
+                   		<i class="col-md-6 fa fa-shopping-cart fa-2x"></i>
+                    </label>
+                	<label class="text-left"><h3>Hipster</h3></label>
+               	 	<label class="text-left"><h3>size 3-5</h3></label>
+               	 	<label class="text-left"><h4><p class="text-center btn-info">USD $500</p></h4></label>
+	        	</div>	        	
+	        </div>
+	        <br />
+	        <div class="row" style="position: relative;">
+	        	<div class="col-md-9">
+	        		<img class="img-rounded img-responsive" src="http://placehold.it/450x250" alt="450x250" />
+	        	</div>
+	        	<div class="col-md-3">
+	        		<label class="text-left">
+	        			<i class="col-md-6 fa fa-camera fa-2x"></i>
+                   		<i class="col-md-6 fa fa-shopping-cart fa-2x"></i>
+                    </label>
+                	<label class="text-left"><h3>Hipster</h3></label>
+               	 	<label class="text-left"><h3>size 3-5</h3></label>
+               	 	<label class="text-left"><h4><p class="text-center btn-info">USD $500</p></h4></label>
+	        	</div>	        	
+	        </div>
+	        <br />
+	        
+			<nav class="text-center">
+			  <ul class="pagination">
+			    <li>
+			      <a href="#" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			      </a>
+			    </li>
+			    <li><a href="#">1</a></li>
+			    <li><a href="#">2</a></li>
+			    <li><a href="#">3</a></li>
+			    <li>
+			      <a href="#" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+		</div>
+		
+	</div>
+
+</div>
